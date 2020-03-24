@@ -1,0 +1,214 @@
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+body 
+{
+    background: #f8f8f8;
+    color: #212529;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+header
+{
+    box-shadow: 0 1px 15px rgba(0,0,0,.04), 0 1px 6px rgba(0,0,0,.04);
+    padding: 20px;
+    background: #fff;
+    height: 90px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1030;
+    text-align: left;
+    padding-left: 250px;
+}
+
+footer
+{
+    display: contents;
+    position: absolute;
+    background: #e7e7e7;
+}
+
+.login-panel
+{
+margin-top: 100px;
+height: 500px;
+width: 30%;
+text-align-last: center;
+opacity: 0.8;
+color: #373737;
+margin-bottom: 20px;
+padding: 20px;
+top: 20px;
+background: #fff;
+position: relative;
+display: flex;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+background-color: #fff;
+background-clip: border-box;
+border: 1px solid rgba(0,0,0,0.125);
+}
+
+img.profilepicture
+{
+    border-radius: 160px;
+    width: 55px;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.user-details
+{
+    display: inline-table;
+}
+
+span.user
+{
+    float: right;
+    text-align: right;
+}
+
+span.logout a 
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    font-size: smaller;
+    color: #545454;
+    font-style: italic;
+    padding-right: 15px;
+    text-decoration: underline;
+}
+
+.hr-line
+{
+    border-bottom: 1px solid #d7d7d7;
+}
+
+span.username
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    vertical-align: -webkit-baseline-middle;
+    padding-right: 15px;
+    color: #878787;
+}
+
+h1
+{
+    font-size: 1.75rem;
+    display: inline-block;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img.logo
+{
+    width: 100px;
+    height: 80px;
+    position: fixed;
+    top: 5px;
+    left: 40px;
+}
+
+div a
+{
+   font-size: medium;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a.forgot-passowrd-href 
+{
+   text-decoration: none;
+   display: inline-block;
+   color: #353434;
+   padding: 10px;
+   padding-right: 85px;
+}
+
+button.register-button
+{
+   background-color: #ef3e42;
+   color: white;
+   width: 80px;
+   height: 30px;
+   border-radius: 5px;
+   float: right;
+   margin: 10px;
+}
+
+button.submit-login-button
+{
+    float: right;
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    background: #fdbe11;
+    color: #484848;
+    font-weight: 800;
+}
+
+ input.checkbox
+{
+    float: left;
+}
+
+label.login-label
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    float: left;
+    color: #5d5d5d;
+    font-size: medium;
+    padding: 1px;
+}
+
+input.textfield
+{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    border: solid 1px #c1c1c1;
+    box-shadow: inset 0 1px 8px 5px rgba(0,0,0,.04), 0 1px 6px rgba(0,0,0,.04);
+}
+
+.row
+{
+   margin-top: 10px;
+   display: block;
+   padding: 10px;
+}
+
+div.footer-copyright
+{
+    float: left;
+    padding: 25px;
+    color: #7a7a7a;
+}
+
+div.footer-credits
+{
+    padding: 25px;
+    float: right;
+    color: #7a7a7a;
+}
+
+p.footer-data1
+{
+   display: inline;
+   color: #7a7a7a;
+}
+
+p#footer-data2
+{
+   padding-left: 80%;
+}
+
+

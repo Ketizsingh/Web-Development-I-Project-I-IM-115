@@ -1,9 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login Page</title>
+    <title>Login-Page</title>
+    <link rel="stylesheet" type="text/css" href="includes/css/style.css">
 </head>
 <body>
 
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/McDonald%27s_SVG_logo.svg/3000px-McDonald%27s_SVG_logo.svg.png" class="logo">
+        <h1 class="top-heading">Mcdonald Survey</h1>
+        <span class="user">
+			<div class="user-details">
+				<span class="username">Eduardo Reis</span>
+        <span class="logout"><a href="#">Logout?</a></span>
+        </div>
+        <img class="profilepicture" src="https://vien-angular.coloredstrategies.com/assets/img/profile-pic-l.jpg">
+        </span>
+    </header>
+
+    <content style="text-align: -webkit-center;">
+        <div class="login-panel">
+            <h1>Login</h1>
+
+        	<div class="hr-line"></div>
+
+            <form action="survey.html" name="login-form">
+        		<div class="row">		
+        			<label class="login-label">Username</label> 
+        			<input class="textfield" type="text" value="" name="username">
+        		</div>
+        	
+        		<div class="row">
+        			<label class="login-label">Password</label> 
+        			<input class="textfield" type="password" value="" name="password">
+        		</div>
+        		
+        		<div class="row">
+        			<input class="checkbox" type="checkbox" name="remember"> <label class="remember-label login-label">Remember me?</label> 
+        			<button class="submit-login-button" type="submit">Login</button>
+        		</div>        		
+        	</form>
+
+            <div style="margin-top: 10px;" class="hr-line"></div>
+
+            <div class="forgot-passowrd newuser-link">
+                <a class="forgot-passowrd-href" id='login-page' href="forgotpassword.html">Forgot your password?</a>
+                <button class="register-button" onclick="window.location.href = 'signup.html';" name="register">Register</button>
+            </div>
+
+            <div class="signup-reference-section">
+                <div class="signup-text"></div>
+                <div class="signup-button"></div>
+            </div>
+        </div>
+    </content>
+    <footer>
+
+		<div class="hr-line" style="padding: 20px;"></div>
+        <div class='footer-data'>
+		<p class="footer-data1">(c) McDonalds Inc. 2020</p>
+		<p class="footer-data1" id='footer-data2'>ICT JS Project</p>
+        </div>
+	</footer>
 </body>
 </html>
