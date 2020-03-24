@@ -1,9 +1,288 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Survey Page</title>
+    <title>Survey</title>
+    <link rel="stylesheet" type="text/css" href="includes/css/style.css">
+
+      <script charset="utf-8" src="includes/js/script.js"></script>
+
+
 </head>
+
 <body>
 
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/McDonald%27s_SVG_logo.svg/3000px-McDonald%27s_SVG_logo.svg.png" class="logo">
+
+        <h1 class="top-heading">Mcdonald Survey</h1>
+
+        <ul class="navigation">
+
+            <li class="first"><a href="#">Home</a></li>
+
+            <li><a href="survey.html">Survey</a></li>
+
+            <li class="active"><a href="#">Continuing</a></li>
+
+        </ul>
+
+        <span class="user">
+
+            <div class="user-details">
+                <span class="username">Eduardo Ries</span>
+        <span class="logout"><a href="login.html">Logout?</a></span>
+        </div>
+
+        <img class="profilepicture" src="https://vien-angular.coloredstrategies.com/assets/img/profile-pic-l.jpg">
+
+        </span>
+    </header>
+
+    <content>
+        <sidepanel>
+
+            <ul class="side-menu">
+                <li class="active">
+                    <a class="menu-title" href="survey.html"><i class="dashboard"></i>Survey</a>
+                </li>
+
+                <li>
+                    <a class="menu-title" href="about.html"><i class="profile"></i>Developers</a>
+                </li>
+
+                <li>
+                    <a class="menu-title" href="contact.html"><i class="contact"></i>Location</a>
+                </li>
+
+                <li>
+                    <a class="menu-title" href="reference.html"><i class="help"></i>References</a>
+                </li>
+
+            </ul>
+
+        </sidepanel>
+        <bodypanel>
+
+            <div class="page">
+
+                <div class="page-left-side">
+
+                    <form name="survey">
+
+                        <div id="survey-intro-page">
+                            <div class="survey-item">
+
+                                <h2>Welcome to McDonald Survey Page</h2>
+                                <div class="hr-line"></div>
+                                <p>The survey is just 15 questions long and takes only a couple of minutes to complete.By giving us your feedback, we can actively work to continuously improve our products.</p>
+
+                                <p style="float: right;">Click on <strong>Begin Survey</strong> button to start the survey.</p>
+                            </div>
+                        </div>
+
+                        <div id="survey-first-five-questions">
+
+                            <div class="survey-item">
+                                <div class="question-container">
+                                    <span class="question-index">Question 1:</span>
+                                    <span class="question-text">What is the most important factor in your decision when deciding to eat fast food in
+McDonalds?</span>
+                                </div>
+                                <div class="answer-container">
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-1">Menu</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-2">Ambience</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-3">Customer Service</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-4">Location</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-5">Nutritional Value</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-6">Operating Hours</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-7">Value for Money</div>
+                                </div>
+                            </div>
+
+                            <div class="survey-item">
+                                <div class="question-container">
+                                    <span class="question-index">Question 2:</span>
+                                    <span class="question-text">How frequently do you visit McDonalds?</span>
+                                </div>
+                                <div class="answer-container">
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-1">Once a year</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-1">Once a Month</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-1">Once a Week</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-1">Multiple Times in a week</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-1">Everyday</div>
+                                </div>
+                            </div>
+
+                            <div class="survey-item">
+                                <div class="question-container">
+                                    <span class="question-index">Question 3:</span>
+                                    <span class="question-text">What advancement you want to see in us in coming years?</span>
+                                </div>
+                                <div class="answer-container">
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-2">More variety in burgers</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-2">Better sitting facility</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-2">Better Ambience (playing music)</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-2">Expansion of our store</div>
+                                </div>
+                            </div>
+
+                            <div class="survey-item">
+                                <div class="question-container">
+                                    <span class="question-index">Question 4:</span>
+                                    <span class="question-text">What is your Occupation?</span>
+                                </div>
+                                <div class="answer-container">
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-3">Student</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-3">Unemployed</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-3">Employed</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-3">Self-Employed</div>
+                                </div>
+                            </div>
+
+                            <div class="survey-item">
+                                <div class="question-container">
+                                    <span class="question-index">Question 5:</span>
+                                    <span class="question-text">What is your Annual Income?</span>
+                                </div>
+                                <div class="answer-container">
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-4">Less than $12,000</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-4">$12,000 - $20,000</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-4">$20,000 - $35,000</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-4">$35,000 - $50,000</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-4">Greater than $50,000</div>
+                                </div>
+                            </div>
+                        </div>
+
+                       
+                        <div id="survey-second-five-questions">
+
+                            
+
+                            <div class="survey-item">
+                                <div class="question-container">
+                                    <span class="question-index">Question 6</span>
+                                    <span class="question-text">dsfdsfsdfds dsfdsfsdfds sdfdsfsd</span>
+                                </div>
+                                <div class="answer-container">
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-9">Less than $12,000</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-9">$12,000 - $20,000</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-9">$20,000 - $35,000</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-9">$35,000 - $50,000</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-9">Greater than $50,000</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="survey-third-five-questions">
+
+                            
+
+                            <div class="survey-item">
+                                <div class="question-container">
+                                    <span class="question-index">Question 15:</span>
+                                    <span class="question-text">sdfsdf sdf sdf dsfdsfsdf?</span>
+                                </div>
+                                <div class="answer-container">
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-14">Less than $12,000</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-14">$12,000 - $20,000</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-14">$20,000 - $35,000</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-14">$35,000 - $50,000</div>
+                                    <div class="answer-item">
+                                        <input type="radio" name="ans-14">Greater than $50,000</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="survey-exit-page">
+                            <div class="survey-item">
+
+                                <h2>Survey Completed</h2>
+                                <div class="hr-line"></div>
+                                <p>We are very appreciative of the time you have taken to assist in our analysis, and commit to utilizing the information gained to contemplate and implement McDonald service improvements. We will use this information to improve our service.</p>
+
+                                <p>Once again, we are extremely grateful for your contributing your valuable time, your honest information, and your thoughtful suggestions.</p>
+
+                                <p>Thank you.</p>
+                                <!-- <p style="float: right;">Click on <strong>Begin Survey</strong> button to start the survey.</p> -->
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+
+                <div class="page-right-side">
+
+                    <div class="progress-widget">
+
+                        <div class="progress-title">Survey Progress</div>
+
+
+                       <div id="myBar" class="w3-container w3-green" style="width:25%">0%</div>
+
+
+                       
+
+                        <div id="controls" class="controls">
+
+                            <button id="next-question-button" onclick="next_question(1)" class="next-question-button" name="Next">Begin Survey</button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <footer>
+
+                <div class="hr-line" style="padding: 20px;"></div>
+
+                <span class="footer-copyright">(c) McDonalds Inc. 2020</span>
+                <span class="footer-credits">ICT JS Project</span>
+
+            </footer>
+
+        </bodypanel>
+
+    </content>
+
 </body>
+
 </html>
