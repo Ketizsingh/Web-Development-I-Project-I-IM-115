@@ -516,10 +516,11 @@ button.submit-login-button{
 
 a.forgot-passowrd-href 
 {
-    display: inline-block;
-    color: #353434;
-    padding: 10px;
-    padding-right: 110px;
+   text-decoration: none;
+   display: inline-block;
+   color: #353434;
+   padding: 10px;
+   padding-right: 85px;
 }
 
 button.register-button {
