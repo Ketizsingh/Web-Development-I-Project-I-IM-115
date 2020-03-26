@@ -387,7 +387,7 @@ div#survey-second-five-questions {
   filter: grayscale(0%);
 
      transform: scale(1.1);
-     ransition: 0.9s;
+     transition: 0.9s;
 }
  .developer-details {
      display: block;
@@ -414,11 +414,6 @@ div#survey-second-five-questions {
  .developer-contact {
      padding-left: 10%;
 }
-
-
-
-
-
 
 .login-panel,.resetpassword-panel{
         margin-top: 100px;
@@ -598,9 +593,6 @@ padding-right: 15px;
 {
     margin-top: 10px;
 }
-
-
-
 
 .w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
     color: #000!important;
