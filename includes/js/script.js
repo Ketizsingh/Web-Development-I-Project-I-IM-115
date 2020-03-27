@@ -90,4 +90,9 @@ function confirmpassword()
     }
 }
 
+function confirmuser()
+{
+  alert('Your User-Id is sent to your E-mail');
+}
+
 

@@ -509,6 +509,11 @@ button.submit-login-button{
     font-weight: 800;
 }
 
+a.forgot-userid
+{
+    margin-left: -65%;
+}
+
 a.forgot-passowrd-href 
 {
    text-decoration: none;
