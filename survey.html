@@ -1,3 +1,4 @@
+<!-- This page contains the survey question that is to be conducted by the comapny for getting feedbacls from their customers-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +11,8 @@
 </head>
 
 <body>
-
+<!-- This section contains the header part of the page containing the logo of the company 
+along with the user details who is logged in to comapnies website-->
     <header>
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/McDonald%27s_SVG_logo.svg/3000px-McDonald%27s_SVG_logo.svg.png" class="logo">
 
@@ -40,7 +42,7 @@
 
     <content>
         <sidepanel>
-
+<!-- This section contains the information that is displayed as a side bar on the website-->
             <ul class="side-menu">
                 <li class="active">
                     <a class="menu-title" href="survey.html"><i class="dashboard"></i>Survey</a>
@@ -62,7 +64,7 @@
 
         </sidepanel>
         <bodypanel>
-
+<!-- This Section contains the first set of survey questions -->
             <div class="page">
 
                 <div class="page-left-side">
@@ -179,7 +181,7 @@ McDonalds?</span>
                             </div>
                         </div>
 
-                       
+<!-- This Section contains the second set of survey questions -->                       
                         <div id="survey-second-five-questions">
 
                             
@@ -263,7 +265,7 @@ McDonalds?</span>
                             </div>
 
                         </div>
-
+<!-- This Section contains the third set of survey questions -->
                         <div id="survey-third-five-questions">
                             <div class="survey-item">
                                 <div class="question-container">
@@ -350,7 +352,9 @@ McDonalds?</span>
                             </div>
                         </div>
 
-                        <div id="survey-exit-page">
+<!-- This Section contains the message that is to be displayed after the survey is completed -->
+                        
+                            <div id="survey-exit-page">
                             <div class="survey-item">
 
                                 <h2>Survey Completed</h2>
@@ -360,37 +364,26 @@ McDonalds?</span>
                                 <p>Once again, we are extremely grateful for your contributing your valuable time, your honest information, and your thoughtful suggestions.</p>
 
                                 <p>Thank you.</p>
-                                <!-- <p style="float: right;">Click on <strong>Begin Survey</strong> button to start the survey.</p> -->
+                                
                             </div>
                         </div>
 
                     </form>
 
                 </div>
-
+<!-- This section is used to change the set of survey questions
+along with that we have used a progress bar with help of javascript to display the progress of survey-->
                 <div class="page-right-side">
-
                     <div class="progress-widget">
-
                         <div class="progress-title">Survey Progress</div>
-
-
                        <div id="myBar" class="w3-container w3-green" style="width:25%">0%</div>
-
-
-                       
-
                         <div id="controls" class="controls">
-
                             <button id="next-question-button" onclick="next_question(1)" class="next-question-button" name="Next">Begin Survey</button>
-
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
+ <!-- This is the footer section to that contains some data to make our web page look more genuine and attractive-->
             <footer>
 
                 <div class="hr-line" style="padding: 20px;"></div>
@@ -401,11 +394,7 @@ McDonalds?</span>
                     </div>
 
             </footer>
-
         </bodypanel>
-
     </content>
-
 </body>
-
 </html>

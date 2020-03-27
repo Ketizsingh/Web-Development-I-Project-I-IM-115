@@ -82,11 +82,11 @@ function confirmpassword()
     var display;
     if(confirm('Your given password will be reset once you confirm your email.'))
     {
-        display='Congratulations! Your password has been changed';
+        alert('Congratulations! Your password has been changed');
     }
     else
-    {
-        display='Re-enter your password';
+    {   
+        alert('Re-directing to Login Page');
     }
 }
 
