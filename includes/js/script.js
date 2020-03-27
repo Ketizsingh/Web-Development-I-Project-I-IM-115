@@ -68,13 +68,20 @@ function finish()               /* function finish */
 
 function confirmpassword()                /* function confirmpassword */
 {
-  var display;
-  if(confirm('Your given password will be reset once you confirm your email.'))
-  {
-    display='Congratulations! Your password has been changed';
-  }
+    var display;
+    if(confirm('Your given password will be reset once you confirm your email.'))
+    {
+        alert('Congratulations! Your password has been changed');
+    }
     else
-  {
-    display='Re-enter your password';
-  }
+    {   
+        alert('Re-directing to Login Page');
+    }
 }
+
+function confirmuser()
+{
+  alert('Your User-Id is sent to your E-mail');
+}
+
+

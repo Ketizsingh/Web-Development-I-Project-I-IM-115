@@ -484,7 +484,13 @@ button.submit-login-button {                /* button class submit-login-button 
     color: #484848;
     font-weight: 800;
 }
-a.forgot-passowrd-href {                           /* a class forgot-password-href */
+
+a.forgot-userid
+{
+    margin-left: -65%;
+}
+a.forgot-passowrd-href 
+{
    text-decoration: none;
    display: inline-block;
    color: #353434;
