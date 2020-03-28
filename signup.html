@@ -1,98 +1,81 @@
 <!--Signup Page-->
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Registration Page</title>
-        <link href='includes/css/style.css' rel='stylesheet' type='text/css'>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <header>
-
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/McDonald%27s_SVG_logo.svg/3000px-McDonald%27s_SVG_logo.svg.png" class="logo">
-    
-            <h1 class="top-heading">Mcdonald Survey</h1>
-            <!--Heading-->
-
-            <span class="user">
-    
-                <!--User detail and logout option-->
-                <div class="user-details">
-                    <span class="username">Eduardo Reis</span>
-            <span class="logout"><a href="#">Logout?</a></span>
+   <head>
+      <title>Registration</title>
+      <meta charset="utf-8"/>
+      <meta name="author" content="McDonalds" />
+      <meta name="copyright" content="McDonalds" />
+      <meta http-equiv="cache-control" content="no-cache"/>
+      <meta name="Content-Language" content="english">
+      <link rel="stylesheet" type="text/css" href="includes/css/style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="includes/css/style.css">
+      <script src='includes/js/script.js'></script>
+   </head>
+   <body>
+      <header>
+         <img src="includes/images/logo.png" class="logo">
+         <h1 class="top-heading">Mcdonald Survey</h1>
+         <!--Heading-->
+      </header>
+      <content style="text-align: -webkit-center;">
+         <div class="register-panel">
+            <h1>Register</h1>
+            <!--Logos for alternate login-->
+            <div class="hr-line"></div>
+            <div id='images' align='center'>
+               <a href='https://www.facebook.com'><img src='includes\Images\facebook.png' alt='Image Not Found' class='register-image'></a>
+               <a href='https://www.gmail.com'><img src='includes\Images\google.png' alt='Image Not Found' class='register-image'></a>
+               <a href='https://www.linkedin.com'><img src='includes\Images\linkedin.png' alt='Image Not Found' class='register-image'></a>
             </div>
-    
-            <img class="profilepicture" src="https://vien-angular.coloredstrategies.com/assets/img/profile-pic-l.jpg">
-    
-            </span>
-    
-        </header>
-
-        <content style="text-align: -webkit-center;">
-    
-            <div class="register-panel">
-                            
-                <h1>Register</h1>
-
-                <!--Logos for alternate login-->
-                <div class="hr-line"></div>
-                <div id='images' align='center'>
-                <a href='https://www.facebook.com'><img src='includes\Images\facebook.png' alt='Image Not Found' class='register-image'></a>
-                <a href='https://www.gmail.com'><img src='includes\Images\google.png' alt='Image Not Found' class='register-image'></a>
-                <a href='https://www.linkedin.com'><img src='includes\Images\linkedin.png' alt='Image Not Found' class='register-image'></a>
-                </div>
-                <p style='text-align:center'>Or Enter Data Manually</p>
-
-                <div class="hr-line1"></div>
-
-                <form name='register-form'>
-                    <label for="fname" class='register-label'><b>First Name</b></label>
-                    <input type="text" name='fname' class='register-input'><br><br>
-                    <label for="lname" class='register-label'><b>Last Name</b></label>
-                    <input type="text" name='lname' class='register-input'><br><br>
-                    <label for="email" class='register-label'><b>E-mail</b></label>
-                    <input type="text" name='email' class='register-input'><br><br>
-                    <label for="number" class='register-label'><b>Date Of Birth</b></label>
-                    <input type="text" name='dob'  class='register-input'><br><br>
-                    <label for="number" class='register-label'><b>Street No.</b></label>
-                    <input type="text" name='address1'  class='register-input'><br><br>
-                    <label for="number" class='register-label'><b>Street Name</b></label>
-                    <input type="text" name='address1'  class='register-input'><br><br>
-                    <label for="country" class='register-label'><b>City</b></label>
-                    <input type="text" name='city' class='register-input'><br><br>
-                    <label for="city" class='register-label'><b>Province/State</b></label>
-                    <input type="text" name='State' class='register-input'><br><br>
-                    <label for="number" class='register-label'><b>Country</b></label>
-                    <input type="text" name='country'  class='register-input'><br><br>
-                    <label for="number" class='register-label'><b>Postal-Code</b></label>
-                    <input type="text" name='postal-code'  class='register-input'><br><br>
-                    <label for="password" class='register-label'><b>Password</b></label>
-                    <input type="password" name='password' class='register-input'><br><br>
-                    <label for="repassword" class='register-label'><b>Re-Type Password</b></label>
-                    <input type="password" name='repassword' class='register-input'><br>
-                </form>
-                <div class='gender-selection'>
-                    <label for='gender' class='register-label'><b>Gender:</b></label>
-                    <form class='gender-option-select'>
-                        <input type='radio' name="gender" value="male" class='gender-input'>Male
-                        <input type='radio' name="gender" value="female" class='gender-input'>Female
-                        <input type='radio' name="gender" value="other" class='gender-input'>Other 
-                    </form>
-                </div> 
-                <div class="row">
-        			<a href='login.html'><button class="submit-register-button" type="button">Register</button></a>
-        		</div>
-</div>
-</content>   
-<footer>
-
-    <div class="hr-line" style="padding: 20px;"></div>
-
-    <div class='footer-data'>
-		<p class="footer-data1">(c) McDonalds Inc. 2020</p>
-		<p class="footer-data1" id='footer-data2'>ICT JS Project</p>
-    </div>
-    
-</footer> 
-    </body>
+            <p style='text-align:center'>Or Enter Data Manually</p>
+            <div class="hr-line1"></div>
+            <form name='register-form'>
+               <label for="fname" class='register-label'><b>First Name</b></label>
+               <input type="text" name='fname' class='register-input'><br><br>
+               <label for="lname" class='register-label'><b>Last Name</b></label>
+               <input type="text" name='lname' class='register-input'><br><br>
+               <label for="email" class='register-label'><b>E-mail</b></label>
+               <input type="text" name='email' class='register-input'><br><br>
+               <label for="number" class='register-label'><b>Date Of Birth</b></label>
+               <input type="text" name='dob'  class='register-input'><br><br>
+               <label for="number" class='register-label'><b>Street No.</b></label>
+               <input type="text" name='address1'  class='register-input'><br><br>
+               <label for="number" class='register-label'><b>Street Name</b></label>
+               <input type="text" name='address1'  class='register-input'><br><br>
+               <label for="country" class='register-label'><b>City</b></label>
+               <input type="text" name='city' class='register-input'><br><br>
+               <label for="city" class='register-label'><b>Province/State</b></label>
+               <input type="text" name='State' class='register-input'><br><br>
+               <label for="number" class='register-label'><b>Country</b></label>
+               <input type="text" name='country'  class='register-input'><br><br>
+               <label for="number" class='register-label'><b>Postal-Code</b></label>
+               <input type="text" name='postal-code'  class='register-input'><br><br>
+               <label for="password" class='register-label'><b>Password</b></label>
+               <input type="password" name='password' class='register-input'><br><br>
+               <label for="repassword" class='register-label'><b>Re-Type Password</b></label>
+               <input type="password" name='repassword' class='register-input'><br>
+            </form>
+            <div class='gender-selection'>
+               <label for='gender' class='register-label'><b>Gender:</b></label>
+               <form class='gender-option-select'>
+                  <input type='radio' name="gender" value="male" class='gender-input'>Male
+                  <input type='radio' name="gender" value="female" class='gender-input'>Female
+                  <input type='radio' name="gender" value="other" class='gender-input'>Other 
+               </form>
+            </div>
+            <div class="row">
+               <a href='login.html'><button class="submit-register-button" type="button">Register</button></a>
+            </div>
+         </div>
+      </content>
+      <footer>
+         <div class="hr-line" style="padding: 20px;"></div>
+         <div class='footer-data'>
+            <p class="footer-data1">(c) McDonalds Inc. 2020</p>
+            <p class="footer-data1" id='footer-data2'>ICT JS Project</p>
+         </div>
+      </footer>
+   </body>
 </html>

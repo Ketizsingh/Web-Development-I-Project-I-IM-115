@@ -73,25 +73,25 @@ ul.side-menu li.active:before {         /*  before active list in ul class side-
     left: 0;
 }
 i.dashboard {                                /* i class dashboard    */
-    content:url(includes/images/home.svg);
+    content:url(../../includes/images/home.svg);
     height:40px;
     width:40px;
     display:inherit;
 }
 i.profile {                                  /*  i class profile   */
-    content:url(includes/images/profile.svg);
+    content:url(../../includes/images/profile.svg);
     height:40px;
     width:40px;
     display:inherit;
 }
 i.contact {                                  /*  i class contact */
-    content:url(includes/images/social.svg);
+    content:url(../../includes/images/social.svg);
     height:40px;
     width:40px;
     display:inherit;
 }
 i.help {                                     /* i class help */
-    content:url(includes/images/help.svg);
+    content:url(../../includes/images/help.svg);
     height:40px;
     width:40px;
     display:inherit;
@@ -485,18 +485,28 @@ button.submit-login-button {                /* button class submit-login-button 
     font-weight: 800;
 }
 
-a.forgot-userid
-{
-    margin-left: -65%;
+.forgot-passowrd.newuser-link {
+    display: inline-flex;
 }
-a.forgot-passowrd-href 
-{
-   text-decoration: none;
-   display: inline-block;
-   color: #353434;
-   padding: 10px;
-   padding-right: 85px;
+
+a.forgot-userid {
+    float: left;
 }
+a#login-page {
+    float: left;
+    margin-bottom: 8px;
+}
+.forget-pass-userid-both {
+    padding: 10px;
+}
+
+
+.register-button {
+    position: absolute;
+    right: 0px;
+    margin: 20px;
+}
+
 button.register-button {                        /* button class register-button */
     background-color: #ef3e42;
     color: white;

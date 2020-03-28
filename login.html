@@ -1,69 +1,67 @@
 <!-- This is the First Page where user will login to his/her account.
-     This page also contains link to Forgot-Password page and New User Sign-Up Page-->
+   This page also contains link to Forgot-Password page and New User Sign-Up Page-->
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Login-Page</title>
-    <link rel="stylesheet" type="text/css" href="includes/css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-<!-- This is the header section where we have inserted the information about the user Logged In. 
-    This header section also conatins the logo of the company for which we are conducting survey -->
-    <header>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/McDonald%27s_SVG_logo.svg/3000px-McDonald%27s_SVG_logo.svg.png" class="logo">
-        <h1 class="top-heading">Mcdonald Survey</h1>
-        <span class="user">
-			<div class="user-details">
-				<span class="username">Eduardo Reis</span>
-        <span class="logout"><a href="#">Logout?</a></span>
-        </div>
-        <img class="profilepicture" src="https://vien-angular.coloredstrategies.com/assets/img/profile-pic-l.jpg">
-        </span>
-    </header>
-<!-- This section describe how our login page will appear when we run our web page on browser
-    Content tag will make everything appear at the center of the screen-->
-    <content style="text-align: -webkit-center;">
-
-        <div class="login-panel">
+   <head>
+      <title>Login-Page</title>
+      <meta charset="utf-8"/>
+      <meta name="author" content="McDonalds" />
+      <meta name="copyright" content="McDonalds" />
+      <meta http-equiv="cache-control" content="no-cache"/>
+      <meta name="Content-Language" content="english">
+      <link rel="stylesheet" type="text/css" href="includes/css/style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="includes/css/style.css">
+      <script src='includes/js/script.js'></script>
+   </head>
+   <body>
+      <!-- This is the header section where we have inserted the information about the user Logged In. 
+         This header section also conatins the logo of the company for which we are conducting survey -->
+      <header>
+         <img src="includes/images/logo.png" class="logo">
+         <h1 class="top-heading">Mcdonald Survey</h1>
+      </header>
+      <!-- This section describe how our login page will appear when we run our web page on browser
+         Content tag will make everything appear at the center of the screen-->
+      <content style="text-align: -webkit-center;">
+         <div class="login-panel">
             <h1>Login</h1>
-
-        	<div class="hr-line"></div>
-
+            <div class="hr-line"></div>
             <form action="survey.html" name="login-form">
-        		<div class="row">		
-        			<label class="login-label">Username</label> 
-        			<input class="textfield" type="text" value="" name="username">
-        		</div>
-        	
-        		<div class="row">
-        			<label class="login-label">Password</label> 
-        			<input class="textfield" type="password" value="" name="password">
-        		</div>
-        		
-        		<div class="row">
-        			<input class="checkbox" type="checkbox" name="remember"> <label class="remember-label login-label">Remember me?</label> 
-        			<button class="submit-login-button" type="submit">Login</button>
-        		</div>        		
-        	</form>
-
+               <div class="row">        
+                  <label class="login-label">Username</label> 
+                  <input class="textfield" type="text" value="" name="username">
+               </div>
+               <div class="row">
+                  <label class="login-label">Password</label> 
+                  <input class="textfield" type="password" value="" name="password">
+               </div>
+               <div class="row">
+                  <input class="checkbox" type="checkbox" name="remember"> <label class="remember-label login-label">Remember me?</label> 
+                  <button class="submit-login-button" type="submit">Login</button>
+               </div>
+            </form>
             <div style="margin-top: 10px;" class="hr-line"></div>
-
             <div class="forgot-passowrd newuser-link">
-                <a class="forgot-passowrd-href" id='login-page' href="forgotpassword.html">Forgot your password?</a>
-                <button class="register-button" onclick="window.location.href = 'signup.html';" name="register">Register</button>
+                <div class="forget-pass-userid-both">
+                   <a class="forgot-passowrd-href" id='login-page' href="forgotpassword.html">Forgot your password?</a>
+                   <br>
+                   <a class="forgot-userid" href="forgotuser.html">Forgot User-Id?</a>
+                </div>
+                <div class="register-button">
+                     <button class="register-button" onclick="window.location.href = 'signup.html';" name="register">Register</button>
+                </div>
             </div>
-            <a class="forgot-userid" href="forgotuser.html">Forgot User-Id?</a>
-        </div>
-    </content>
-    <!-- This is the footer section to that contains some data to make our web page look more genuine and attractive-->
-    <footer>
-
-		<div class="hr-line" style="padding: 20px;"></div>
-        <div class='footer-data'>
-		<p class="footer-data1">(c) McDonalds Inc. 2020</p>
-		<p class="footer-data1" id='footer-data2'>ICT JS Project</p>
-        </div>
-	</footer>
-</body>
+            
+         </div>
+      </content>
+      <!-- This is the footer section to that contains some data to make our web page look more genuine and attractive-->
+      <footer>
+         <div class="hr-line" style="padding: 20px;"></div>
+         <div class='footer-data'>
+            <p class="footer-data1">(c) McDonalds Inc. 2020</p>
+            <p class="footer-data1" id='footer-data2'>ICT JS Project</p>
+         </div>
+      </footer>
+   </body>
 </html>
